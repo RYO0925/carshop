@@ -1,0 +1,101 @@
+ 
+ul > li{
+    color: red;
+}
+/* {
+color: #0af0ba;
+color: #ff0808;
+color: #b8b8b8;
+} 
+
+*/
+
+h1 {
+    color: rgba(55, 44, 112, 1);
+    background-color: lightgreen;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 1px 2px 0px yellow;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+}
+
+h2 {
+    text-align: left; 
+    background-color: lightskyblue;
+    word-spacing: 8px;
+}
+
+a {
+    text-align: center;
+    background-color: yellow;
+}
+
+#current_page{
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links{
+    color: darkorange;
+    text-decoration: none;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+ol > li {
+    list-style-type: upper-roman;
+    list-style-position: lower-greek outside;
+}
+
+.abox{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    padding: 50px 100px;
+    /*margin-bottom: 20px;*/
+    border: blue solid 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 0px rgb(92, 218, 20);
+    display: inline-block;
+    overflow: auto;
+    border-spacing: 100px;
+    margin: 25px;
+}
+
+#box1 {
+    background: url("../images/Tesla.jpeg");
+}
+
+#box2 {
+    background: url("../images/Honda.jpeg")no-repeat;
+}
+
+#box3 {
+    background:url("../images/Toyota.webp")no-repeat scroll;
+}
+
+#box4 {
+    background: url("../images/Mercedes-Benz.jpeg") no-repeat scroll center; 
+}
+
+#box5 {
+    background: url("../images/Nissan.jpg") no-repeat scroll center;
+}
+
+#box6 {
+     background: url("../images/Daihatsu.jpeg") scroll;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px 0px;
+    background-color: maroon;
+    color: white;
+}

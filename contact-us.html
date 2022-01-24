@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        h1{
+            color:lightgreen;
+            background-color: #0af0ba;
+        }
+    </style>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+</head>
+<body>
+    <header>
+    <h1>Carshop Company</h1>
+    <h2>Contact us</h2>
+    <hr>
+    </header>
+    <a href="index.html" class="nav_links">Home</a>
+    <a href="products.html"class="nav_links">Products</a>
+    <a href="about-us.html"class="nav_links">About us</a>
+    <a href="contact-us.html" id="current_page"class=“nav_links”>Contact us</a>
+    <br>
+
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" placeholder="First Name" id="first-name" name="first-name" required>
+        <br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" placeholder="Last Name" id="last-name" name="last-name" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="password" id="password">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday">
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="user@sample.com">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        <br>
+        <label for="v_status">Covid-19 Vaccination Status:</label>
+        <br>
+        <input type="radio" id="vaccinated" name="vstatus" value="vaccinated">
+        <label for="vaccinated">Vaccinated</label>
+        <br>
+        <input type="radio" id="notvaccinated" name="vstatus" value="notvaccinated">
+        <label for="vaccinated">Not Vaccinated</label>
+        <br>
+        <input type="radio" id="prefernottosay" name="vstatus" value="prefernottosay">
+        <label for="vaccinated">Prefer not to say</label>
+        <br>
+        <label>Country Visited:</label>
+        <br>
+        <input type="checkbox" id="afghanistan" name="afghanistan" value="afghanistan">
+        <label for="afghanistan">Afghanistan</label>
+        <br>
+        <input type="checkbox" id="belize" name="belize" value="belize">
+        <label for="afghanistan">Belize</label>
+        <br>
+        <input type="checkbox" id="canada" name="canada" value="canada">
+        <label for="canada">Canada</label>
+        <br>
+        <input type="checkbox" id="djibouti" name="djibouti" value="djibouti">
+        <label for="djibouti">Djibouti</label>
+        <br>
+        <input type="checkbox" id="eriteria" name="eriteria" value="eriteria">
+        <label for="eriteria">Eriteria</label>
+        <br>
+        <input type="checkbox" id="france" name="france" value="france">
+        <label for="france">France</label>
+        <br>
+        <input type="checkbox" id="germany" name="germany" value="germany">
+        <label for="germany">Germany</label>
+        <br>
+        <label for="primary-citizenship">Primary Country of Citizenship:</label>
+        <select id="primary-citizenship" name="primary-citizenship" multiple>
+            <option value="argentina">Argentina</optiom>
+            <option value="brazil">Brazil</option>
+            <option value="china">China</option>
+            <option value="denmark">Denmark</option>
+            <option value="egypt">Egypt</option>
+            <option value="finland">Finland</option>
+            <option value="ghana">Ghana</option>
+        </select>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="130">
+        <br>
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file">
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <input type="button" value="Input Botton">
+        <br>
+        <input type="image" src="images/Honda.jpeg" height="70px" alt="Toyota car button">
+        <br>
+    </form>
+</body>
+</html>
