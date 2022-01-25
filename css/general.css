@@ -24,19 +24,23 @@ h1 {
 }
 
 h2 {
-    text-align: left; 
+    text-align: center; 
     background-color: lightskyblue;
     word-spacing: 8px;
 }
 
 a {
-    text-align: center;
     background-color: yellow;
 }
 
 #current_page{
     color: black;
     text-decoration: none;
+}
+
+nav{
+   background-color: #388eeb;
+   text-align: center;
 }
 
 .nav_links{
