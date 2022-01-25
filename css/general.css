@@ -31,7 +31,7 @@ h2 {
 
 a {
     text-align: center;
-    background-color: skyblue;
+    background-color: yellow;
 }
 
 #current_page{
@@ -42,6 +42,10 @@ a {
 .nav_links{
     color: darkorange;
     text-decoration: none;
+}
+
+body {
+    background-color: #d4d4d4;
 }
 
 *{
@@ -99,3 +103,5 @@ footer {
     background-color: red;
     color: white;
 }
+
+ 
