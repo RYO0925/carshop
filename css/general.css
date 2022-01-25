@@ -1,7 +1,5 @@
  
-ul > li{
-    color: red;
-}
+
 /* {
 color: #0af0ba;
 color: #ff0808;
@@ -38,6 +36,11 @@ a {
     text-decoration: none;
 }
 
+#index-label{
+    font-size: 25px;
+    font-style:oblique;
+}
+
 nav{
    background-color: #388eeb;
    text-align: center;
@@ -62,8 +65,8 @@ ol > li {
 }
 
 .abox{
-    height: 150px;
-    width: 150px;
+    height: 225px;
+    width: 225px;
     background-color: lightgreen;
     padding: 50px 100px;
     /*margin-bottom: 20px;*/
@@ -73,31 +76,32 @@ ol > li {
     display: inline-block;
     overflow: auto;
     border-spacing: 100px;
+    border-radius: 50px;
     margin: 25px;
 }
 
 #box1 {
-    background: url("../images/Tesla.jpeg");
+    background: url("../images/SmartBuilding.jpeg")no-repeat;
 }
 
 #box2 {
-    background: url("../images/Honda.jpeg")no-repeat;
+    background: url("../images/Mercedes-Benz.jpeg")no-repeat;
 }
 
 #box3 {
-    background:url("../images/Toyota.webp")no-repeat scroll;
+    background:url("../images/Nissan.jpg")no-repeat scroll;
 }
 
 #box4 {
-    background: url("../images/Mercedes-Benz.jpeg") no-repeat scroll center; 
+    background: url("../images/Repairing\ Car.jpeg") no-repeat scroll center; 
 }
 
 #box5 {
-    background: url("../images/Nissan.jpg") no-repeat scroll center;
+    background: url("../images/Washing\ Car.jpeg") no-repeat scroll center;
 }
 
 #box6 {
-     background: url("../images/Daihatsu.jpeg") scroll;
+     background: url("../images/driving.jpeg") scroll;
 }
 
 footer {
@@ -108,4 +112,6 @@ footer {
     color: white;
 }
 
- 
+ #photo-con {
+     text-align: center;
+ }
